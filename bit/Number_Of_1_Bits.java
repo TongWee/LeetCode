@@ -11,4 +11,15 @@ public class Number_Of_1_Bits {
 		}
 		return count;
 	}
+
+	public int hammingWeight_2(int n) {
+		int count = 0;
+		int a = 1;
+		while (a != 0) {
+			if ((n & a) == a)
+				count++;
+			a = a << 1;
+		}
+		return count;
+	}
 }
