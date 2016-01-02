@@ -1,11 +1,11 @@
 package tree;
 
-public class TreeNode<E extends Comparable<E>> {
-	E val;
+public class TreeNode {
+	int val;
 	public TreeNode left;
 	public TreeNode right;
 
-	TreeNode(E x) {
+	TreeNode(int x) {
 		val = x;
 	}
 }
