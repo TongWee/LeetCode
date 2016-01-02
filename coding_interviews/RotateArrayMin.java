@@ -50,7 +50,7 @@ public class RotateArrayMin {
 	}
 
 	public static void main(String[] args) {
-		int[] a = { 2, 3, 4, 1 };
+		int[] a = { 1,2,3,4,5,6 };
 		System.out.println(getMin_2(a));
 	}
 
